@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 5px;
+    width: 10%;
+    border-color: #DCDCDC;
+    margin: 80px auto;
+  }
+
+h1 {
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  color: #66BFBF;
+  margin: 0;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+p {
+  line-height: 2;
+}
+
+.top-container {
+  background-color: #e0ebe8;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  margin: 70px 0;
+}
+
+.intro {
+  width: 45%;
+  margin: auto;
+}
+
+.contact-msg {
+width: 45%;
+margin: auto;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 200px;
+  top: 50px;
+  width: 160px;
+  height: 35px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 200px;
+  bottom: 300px;
+  width: 160px;
+  height: 35px;
+}
+
+.mountain {
+  display: block;
+  margin: 60px auto 0 auto;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.skill-img1 {
+  width:25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.skill-img2 {
+  width:25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px 0 20px 0;
+}
+
+.butn {
+  background: #11cdd4;
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 15px;
+}
+
+.butn:hover {
+  background: #30e3cb;
+  background-image: linear-gradient(to bottom, #2bcccc, #297d99);
+  text-decoration: none;
+}
+
+a {
+  color: #297d99;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #eaf6f6;
+}
+
+.copyright-msg {
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
